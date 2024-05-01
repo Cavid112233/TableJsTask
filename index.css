@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pagination {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.button {
+  width: 60px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+}
+.prev__button {
+  width: 60px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orangered;
+  color: white;
+}
+.next__button {
+  width: 60px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orangered;
+  color: white;
+}
+.button.selected {
+  background-color: coral !important;
+}
+.set__data__per__page {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.data__page {
+  width: 60px;
+  height: 30px;
+  border: 1px solid black;
+  background: none;
+}
